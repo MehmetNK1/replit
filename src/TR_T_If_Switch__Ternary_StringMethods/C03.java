@@ -17,8 +17,14 @@ public class C03 {
         71
          */
 
-        int sayi1=25,sayi2=46;
-        System.out.println(sayi1+" "+"\n"+sayi2);
-        System.out.println(sayi1+sayi2);
+        Scanner scan=new Scanner(System.in);
+        System.out.println("iki sayi giriniz");
+        int sayi1=scan.nextInt();
+        System.out.println("ikinci sayi");
+        int sayi2=scan.nextInt();;
+        int toplam=sayi1+sayi2;
+        if(sayi1>999999999 || sayi2>999999999 || toplam>999999999){
+            System.out.println("overflow");
+        } else System.out.println(toplam);
     }
 }
