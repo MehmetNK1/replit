@@ -15,9 +15,13 @@ public class C06_A {
          */
 
         Scanner scan = new Scanner(System.in);
-        String isim = scan.next();
+        System.out.println("Bir isim giriniz");
+        String isim = scan.nextLine();
 
-        System.out.println(isim);
+        System.out.println((isim.length() == 3 ? isim.charAt(0) == isim.charAt(1)
+                || isim.charAt(0) == isim.charAt(2) || isim.charAt(1) == isim.charAt(2) ?
+                "isim ayni karakterlere sahiptir." : "Dizenin benzersiz karakterleri var"
+                : "isim uzunlugu 3´ten fazladir"));
 
     }
 }

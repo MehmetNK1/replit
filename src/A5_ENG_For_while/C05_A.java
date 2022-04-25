@@ -1,6 +1,6 @@
 package A5_ENG_For_while;
 
-public class C05 {
+public class C05_A {
     public static void main(String[] args) {
         /*
         Print even numbers from 20 to 0 but do not use decrement (i--).

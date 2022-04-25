@@ -1,6 +1,6 @@
 package A4_TR_For_While;
 
-public class C08_A {
+public class C08 {
     public static void main(String[] args) {
         /*
         'a' ile 'z' arasındaki karakterlerin ascii değerlerini yazdıran bir Java programı yazın.
@@ -32,7 +32,11 @@ public class C08_A {
         y = 121 Ascii value of
         z = 122
          */
-
+        char ascii = 'a';
+        for (int i = ascii; i <= 'z'; i++) {
+            System.out.println("Ascii value of "+ascii + " = " + i);
+            ascii++;
+        }
 
     }
 }

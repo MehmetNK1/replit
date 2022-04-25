@@ -8,12 +8,13 @@ public class C05_A {
 
          */
         int sayi = 100;
-        while(sayi>0) {
-        }if (sayi%2==0){
-
-                System.out.print(sayi + " ");
-                sayi--;
+        while(sayi>0){
+            if (sayi%2==0){
 
         }
+        }
+        System.out.print(sayi + " ");
+        sayi--;
+
     }
 }
